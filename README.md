@@ -14,3 +14,33 @@
 - matplotlib==3.11.2
 
 ## Установка и запуск
+
+### 1. Клонирование репозитория
+    git clone https://github.com/polina-topakova/Lab2_Deep_Learning.git
+    cd Lab1_Deep_Learning
+
+### 2. Создание и активация виртуального окружения
+    python3.12 -m venv .venv
+    source .venv/bin/activate
+    .venv\Scripts\activate
+
+### 3. Установка зависимостей
+    pip install -r requirements.txt
+
+### 4. Запуск ноутбука
+    jupyter lab
+
+Откройте файл `lab2_0_Topakova.ipynb` и выполните все ячейки последовательно.
+
+## Версия Python
+Проект протестирован на Python 3.12.
+
+## Воспроизводимость
+*   Все случайные процессы засеяны (`RANDOM_STATE = 0`).
+*   Версии пакетов зафиксированы в `requirements.txt`.
+*   Запуск на чистом окружении не требует ручных правок.
+
+## Автор
+*   **ФИО:** Топакова Полина Васильевна
+*   **Номер зачетной книжки:** 230470
+*   **Вариант:** 0
